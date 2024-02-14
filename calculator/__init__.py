@@ -27,19 +27,9 @@ from typing import Callable  # For type hinting callable objects
 class Calculator:
 
     @staticmethod
-    def _perform_operation(a: Decimal, operation: Callable[[Decimal, Decimal], Decimal]) -> Decimal:
-        """Create and perform a calculation, with one operand, then return the result."""
-        calculation = Calculation.create(a, operation)
-        # Add the calculation to the history managed by the Calculations class
-        Calculations.add_calculation(calculation)
-        # Perform the calculation and return the result
-        return calculation.perform_one_operand()
-    
-    # method overloading to account for both 1 and 2 operands
-    @staticmethod
     def _perform_operation(a: Decimal, b: Decimal, operation: Callable[[Decimal, Decimal], Decimal]) -> Decimal:
         """Create and perform a calculation, with two operands, then return the result."""
-        calculation = Calculation.create(a, b, operation)
+        calculation = Calculation.create(a, operation, b)
         Calculations.add_calculation(calculation)
         return calculation.perform_two_operands()
 
@@ -64,11 +54,8 @@ class Calculator:
         return Calculator._perform_operation(a, b, divide)
     
     @staticmethod
-    def log(a: Decimal) -> Decimal:
+    def log(a: Decimal, b: Decimal = Decimal('10')) -> Decimal:
         # Perform logarithm by delegating to the _perform_operation method with the log operation
-        return Calculator._perform_operation(a, log)
-    
-    @staticmethod
-    def log(a: Decimal, b: Decimal) -> Decimal:
-        # Overloaded log method with base specification
+        # defaults to base 10
         return Calculator._perform_operation(a, b, log)
+    

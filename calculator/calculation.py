@@ -28,7 +28,7 @@ class Calculation:
     @staticmethod
     def create(a: Decimal, operation: Union[Callable[[Decimal], Decimal], Callable[[Decimal, Decimal], Decimal]], b: Optional[Decimal] = None):
         """Return a new calculation object, intialized with provided arguments"""
-        return Calculation(a, b, operation)
+        return Calculation(a, operation, b)
     
     # Method to perform the calculation stored in this object
     def perform_one_operand(self) -> Decimal:
@@ -44,5 +44,5 @@ class Calculation:
     def __repr__(self):
         """Return a simplified string representation of the calculation"""
         b_repr = f", {self.b}" if self.b is not None else ""
-        return f"Calculation({self.a}{b_repr}, {self.operation.__name__})"
+        return f"Calculation({self.a}, {self.operation.__name__}{b_repr})"
     

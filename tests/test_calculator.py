@@ -16,4 +16,12 @@ def test_multiply():
 def test_divide():
     '''Test that division function works '''    
     assert Calculator.divide(2,2) == 1
+
+def test_log_one():
+    '''Test that logarithm function works with one operand'''
+    assert Calculator.log(100) == 2
+
+def test_log_two():
+    '''Test that logarithm function works with two operands'''
+    assert Calculator.log(4,2) == 2
     
