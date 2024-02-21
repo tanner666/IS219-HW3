@@ -48,6 +48,6 @@ def test_invalid_logarithm_one():
 
 def test_invalid_logarithm_two():
     '''Testing the <= 0 logarithm exception'''
-    with pytest.raises(ValueError, match="Logarithm undefined for zero or negative numbers"):
+    with pytest.raises(ValueError, match="Logarithm undefined for base <= 1"):
         calculation = Calculation(Decimal('10'), log, Decimal('-4'),)
         calculation.perform_two_operands()

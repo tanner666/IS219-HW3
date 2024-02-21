@@ -19,6 +19,8 @@ def divide(a: Decimal, b: Decimal) -> Decimal:
 
 def log(a: Decimal, base: Decimal = Decimal('10')) -> Decimal:
     """Default log for base 10"""
-    if a <= 0 or base <= 0:
+    if a <= 0:
         raise ValueError("Logarithm undefined for zero or negative numbers")
+    if base <= 1:
+        raise ValueError("Logarithm undefined for base <= 1")
     return Decimal(math.log(a, float(base)))
