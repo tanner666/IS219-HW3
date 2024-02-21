@@ -14,7 +14,7 @@ def multiply(a: Decimal, b: Decimal) -> Decimal:
 
 def divide(a: Decimal, b: Decimal) -> Decimal:
     if b == 0:
-        raise ValueError("Cannot divide by zero")
+        raise ZeroDivisionError("Cannot divide by zero")
     return a / b
 
 def log(a: Decimal, base: Decimal = Decimal('10')) -> Decimal:
