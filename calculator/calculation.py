@@ -13,7 +13,6 @@
 '''
 from decimal import Decimal
 from typing import Callable, Optional, Union #type hints for functions
-from calculator.operations import add, subtract, multiply, divide
 
 # Calculations can be performed on both one and two operand operations
 class Calculation:
