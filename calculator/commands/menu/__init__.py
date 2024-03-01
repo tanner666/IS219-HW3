@@ -1,7 +1,4 @@
-from decimal import Decimal  # For high-precision arithmetic
-from calculator.operations import log
 from calculator.commands import Command
-from calculator.commands import Methods
 import os
 
 class MenuCommand(Command):
