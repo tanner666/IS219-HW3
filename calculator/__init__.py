@@ -28,9 +28,21 @@ class Calculator:
                     except TypeError:
                         continue  # If item is not a class or unrelated class, just ignore
 
+    def execute_command_in_process(self, command_name, args):
+        # This method will be run by each process
+        self.command_handler.execute_command(command_name, args)
+
     def start(self):
-        # Register commands here
         self.load_commands()
         print("Type 'exit' to exit.")
-        while True:  #REPL Read, Evaluate, Print, Loop
-            self.command_handler.execute_command(input(">>> ").strip())
+        while True:
+            command_input = input(">>> ").strip().split(' ')
+            print(command_input)
+            command_name = command_input[0]
+            args = command_input[1:]
+            if command_input[0].lower() == 'exit':
+                break
+            # Create a Process for each command execution
+            process = multiprocessing.Process(target=self.execute_command_in_process(command_name,args))
+            process.start()
+            process.join()  # Wait for the command process to finish before continuing

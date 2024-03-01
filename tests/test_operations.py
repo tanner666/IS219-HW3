@@ -2,7 +2,7 @@
 from decimal import Decimal
 import pytest
 from calculator.calculation import Calculation
-from calculator.operations import add, subtract, multiply, divide, log
+from calculator.commands import add, subtract, multiply, divide, log
 
 def test_operation_add():
     '''Testing the addition operation'''

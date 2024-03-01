@@ -7,7 +7,7 @@ import pytest
 
 from calculator.calculation import Calculation
 from calculator.calculations import Calculations
-from calculator.operations import add, subtract, log
+from calculator.commands import add, subtract, log
 
 # pytest.fixture is a decorator that marks a function as a fixture,
 # a setup mechanism used by pytest to initialize a test environment.
