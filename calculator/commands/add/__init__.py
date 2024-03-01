@@ -9,4 +9,4 @@ class AddCommand(Command):
             a, b = map(Decimal, args)
             print(f"The result of {a} + {b} is equal to {Methods._perform_operation(a, b, add)}")
         except ValueError:
-            print("Invalid input. Please enter numbers in the format 'add 1 2'.")
+            print("Invalid input. Please enter numbers in the format 'add a b'.")

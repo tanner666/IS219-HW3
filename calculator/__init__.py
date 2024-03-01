@@ -37,7 +37,6 @@ class Calculator:
         print("Type 'exit' to exit.")
         while True:
             command_input = input(">>> ").strip().split(' ')
-            print(command_input)
             command_name = command_input[0]
             args = command_input[1:]
             if command_input[0].lower() == 'exit':

@@ -9,4 +9,4 @@ class LogCommand(Command):
             a, b = map(Decimal, args)
             print(f"The result of log {a} ({b}) is equal to {Methods._perform_operation(b, a, log)}")
         except ValueError:
-            print("Invalid input. Please enter numbers in the format 'log base #'.")
+            print("Invalid input. Please enter numbers in the format 'log base a'.")

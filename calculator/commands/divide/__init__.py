@@ -9,4 +9,4 @@ class DivideCommand(Command):
             a, b = map(Decimal, args)
             print(f"The result of {a} / {b} is equal to {Methods._perform_operation(a, b, divide)}")
         except ValueError:
-            print("Invalid input. Please enter numbers in the format 'divide 1 2'.")
+            print("Invalid input. Please enter numbers in the format 'divide a b'.")
