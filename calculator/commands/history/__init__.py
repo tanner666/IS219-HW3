@@ -5,6 +5,7 @@ class HistoryCommand(Command):
     def execute(self, args):
         # get history
         history = Calculations.get_history()
+        print(history)
 
         # print calculations
         for calculation in history:

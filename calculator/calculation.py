@@ -29,6 +29,7 @@ class Calculation:
         """Return a new calculation object, intialized with provided arguments"""
         return Calculation(a, operation, b)
     
+    
     # Method to perform the calculation stored in this object
     def perform_one_operand(self) -> Decimal:
         """Perform the stored calculation on one operand and return the result."""

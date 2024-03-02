@@ -16,7 +16,7 @@ as well as the functionality of the Calculation class that encapsulates these op
 from decimal import Decimal
 import pytest
 from calculator.calculation import Calculation
-from calculator.commands import add, divide, log
+from calculator.operations import add, divide, log
 
 # pytest.mark.parametrize decorator is used to parameterize a test function, enabling it to be called
 # with different sets of arguments. Here, it's used to test various scenarios of arithmetic operations
@@ -68,6 +68,7 @@ def test_calculation_repr_one():
     calc = Calculation(Decimal('10'), log)  # Create a Calculation instance for testing.
     expected_repr = "Calculation(10, log)"  # Define the expected string representation.
     assert calc.__repr__() == expected_repr, "The __repr__ method output does not match the expected string."  # Assert that the actual string representation matches the expected string.
+
 
 def test_divide_by_zero():
     """

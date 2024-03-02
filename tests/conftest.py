@@ -1,7 +1,7 @@
 """Faker tests with fixtures"""
 from decimal import Decimal
 from faker import Faker
-from calculator.commands import add, subtract, multiply, divide, log
+from calculator.operations import add, subtract, multiply, divide, log
 
 fake = Faker()
 

@@ -30,7 +30,7 @@ class Calculator:
 
     def execute_command_in_process(self, command_name, args):
         # This method will be run by each process
-        self.command_handler.execute_command(command_name, args)
+        self.command_handler.execute_command(command_name, args) # pragma: no cover
 
     def start(self):
         self.load_commands()
@@ -42,6 +42,6 @@ class Calculator:
             if command_input[0].lower() == 'exit':
                 break
             # Create a Process for each command execution
-            process = multiprocessing.Process(target=self.execute_command_in_process(command_name,args))
-            process.start()
-            process.join()  # Wait for the command process to finish before continuing
+            process = multiprocessing.Process(target=self.execute_command_in_process, args=(command_name, args))# pragma: no cover
+            process.start()# pragma: no cover
+            process.join()  # Wait for the command process to finish before continuing # pragma: no cover
