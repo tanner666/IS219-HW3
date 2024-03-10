@@ -1,61 +1,47 @@
-'''
-
-This Python code defines a Calculator class that provides a simple interface for performing arithmetic operations (addition, subtraction, multiplication, division, log, etc) on Decimal numbers. The class uses static methods, demonstrating a functional approach within an object-oriented context. 
-Each operation method creates a Calculation object, performs the calculation, adds it to a history of calculations, and then returns the result. 
-Let's break down the code with detailed comments and highlight its design principles.
-
-Design Principles Illustrated
-Single Responsibility Principle (SRP): The Calculator class is focused solely on performing calculations using the provided operations. It delegates the responsibility of managing calculation history to the Calculations class, adhering to SRP by having a single reason to change.
-
-Don't Repeat Yourself (DRY): The _perform_operation method abstracts the common process of creating a calculation, adding it to the history, and returning the result. This reduces repetition in the operation methods (add, subtract, multiply, divide), each of which only specifies the operation to perform.
-
-Separation of Concerns: The Calculator class separates concerns by handling the calculation logic, while the Calculations class manages the history of calculations. This separation ensures that each class has a distinct responsibility, enhancing maintainability and scalability.
-
-Encapsulation: While not encapsulating in the traditional sense of hiding data within an object, the Calculator class encapsulates the behavior of performing calculations and managing their lifecycle, showcasing functional encapsulation.
-
-Polymorphism: The use of a Callable type hint for the operation parameter in _perform_operation method demonstrates polymorphism. It allows for any function that matches the specified signature to be passed in and executed, showcasing flexibility and reuse.
-
-This code demonstrates effective use of object-oriented and functional programming principles to create a modular, maintainable, and easy-to-use calculator interface.
-
-'''
-from calculator.calculations import Calculations  # Manages history of calculations
-from calculator.operations import add, subtract, multiply, divide, log  # Arithmetic operations
-from calculator.calculation import Calculation  # Represents a single calculation
-from decimal import Decimal  # For high-precision arithmetic
-from typing import Callable  # For type hinting callable objects
+from calculator.commands import CommandHandler
+from calculator.commands.add import AddCommand
+from calculator.commands.subtract import SubtractCommand
+from calculator.commands.divide import DivideCommand
+from calculator.commands.multiply import MultiplyCommand
+from calculator.commands.log import LogCommand
+import multiprocessing
+import pkgutil
+import importlib
+from calculator.commands import Command
 
 class Calculator:
 
-    @staticmethod
-    def _perform_operation(a: Decimal, b: Decimal, operation: Callable[[Decimal, Decimal], Decimal]) -> Decimal:
-        """Create and perform a calculation, with two operands, then return the result."""
-        calculation = Calculation.create(a, operation, b)
-        Calculations.add_calculation(calculation)
-        return calculation.perform_two_operands()
+    def __init__(self): # Constructor
+        self.command_handler = CommandHandler()
 
-    @staticmethod
-    def add(a: Decimal ,b: Decimal) -> Decimal:
-        # Perform addition by delegating to the _perform_operation method with the add operation
-        return Calculator._perform_operation(a, b, add)
-    
-    @staticmethod
-    def subtract(a: Decimal, b: Decimal) -> Decimal:
-        # Perform subtraction by delegating to the _perform_operation method with the subtract operation
-        return Calculator._perform_operation(a, b, subtract)
+    def load_commands(self):
+        # Dynamically load all plugins in the plugins directory
+        commands_package = 'calculator.commands'
+        for _, command_name, is_pkg in pkgutil.iter_modules([commands_package.replace('.', '/')]):
+            if is_pkg:  # Ensure it's a package
+                command_module = importlib.import_module(f'{commands_package}.{command_name}')
+                for item_name in dir(command_module):
+                    item = getattr(command_module, item_name)
+                    try:
+                        if issubclass(item, (Command)):  # Assuming a BaseCommand class exists
+                            self.command_handler.register_command(command_name, item())
+                    except TypeError:
+                        continue  # If item is not a class or unrelated class, just ignore
 
-    @staticmethod
-    def multiply(a: Decimal, b: Decimal) -> Decimal:
-        # Perform multiplication by delegating to the _perform_operation method with the multiply operation
-        return Calculator._perform_operation(a, b, multiply)
+    def execute_command_in_process(self, command_name, args):
+        # This method will be run by each process
+        self.command_handler.execute_command(command_name, args) # pragma: no cover
 
-    @staticmethod
-    def divide(a: Decimal, b: Decimal) -> Decimal:
-        # Perform division by delegating to the _perform_operation method with the divide operation
-        return Calculator._perform_operation(a, b, divide)
-    
-    @staticmethod
-    def log(a: Decimal, b: Decimal = Decimal('10')) -> Decimal:
-        # Perform logarithm by delegating to the _perform_operation method with the log operation
-        # defaults to base 10
-        return Calculator._perform_operation(a, b, log)
-    
+    def start(self):
+        self.load_commands()
+        print("Type 'exit' to exit.")
+        while True:
+            command_input = input(">>> ").strip().split(' ')
+            command_name = command_input[0]
+            args = command_input[1:]
+            if command_input[0].lower() == 'exit':
+                break
+            # Create a Process for each command execution
+            process = multiprocessing.Process(target=self.execute_command_in_process, args=(command_name, args))# pragma: no cover
+            process.start()# pragma: no cover
+            process.join()  # Wait for the command process to finish before continuing # pragma: no cover

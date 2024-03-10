@@ -1,0 +1,42 @@
+import pytest
+from unittest.mock import Mock
+from calculator.commands import CommandHandler, Command  # Replace 'your_module' with the actual module name
+
+# A concrete implementation of the Command ABC for testing
+class MockCommand(Command):
+    def execute(self, args):
+        print(f"Executing with args: {args}")
+
+@pytest.fixture
+def command_handler():
+    return CommandHandler()
+
+def test_execute_existing_command(capsys, command_handler):
+    command_name = "mock"
+    mock_command = MockCommand()
+    command_handler.register_command(command_name, mock_command)
+
+    args = ["arg1", "arg2"]
+    command_handler.execute_command(command_name, args)
+    captured = capsys.readouterr()
+    assert f"Executing with args: {args}" in captured.out
+
+def test_execute_non_existing_command(capsys, command_handler):
+    command_name = "nonexistent"
+    args = ["arg1", "arg2"]
+    command_handler.execute_command(command_name, args)
+    captured = capsys.readouterr()
+    assert f"No such command: {command_name}" in captured.out
+
+def test_execute_command_with_mock(capsys, command_handler):
+    command_name = "test"
+    args = ["test_arg1", "test_arg2"]
+    # Create a mock command and register it
+    mock_command = Mock(spec=Command)
+    command_handler.register_command(command_name, mock_command)
+
+    # Execute the command
+    command_handler.execute_command(command_name, args)
+
+    # Verify that the mock command's execute method was called with the correct arguments
+    mock_command.execute.assert_called_once_with(args)

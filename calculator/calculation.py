@@ -13,7 +13,6 @@
 '''
 from decimal import Decimal
 from typing import Callable, Optional, Union #type hints for functions
-from calculator.operations import add, subtract, multiply, divide
 
 # Calculations can be performed on both one and two operand operations
 class Calculation:
@@ -29,6 +28,7 @@ class Calculation:
     def create(a: Decimal, operation: Union[Callable[[Decimal], Decimal], Callable[[Decimal, Decimal], Decimal]], b: Optional[Decimal] = None):
         """Return a new calculation object, intialized with provided arguments"""
         return Calculation(a, operation, b)
+    
     
     # Method to perform the calculation stored in this object
     def perform_one_operand(self) -> Decimal:
