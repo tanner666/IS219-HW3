@@ -1,6 +1,5 @@
 astroid==3.0.2
 blinker==1.4
-cliapp==1.20180812.1
 command-not-found==0.3
 coverage==7.4.1
 cryptography==3.4.8
