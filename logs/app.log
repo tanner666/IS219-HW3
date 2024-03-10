@@ -1,0 +1,367 @@
+2024-03-10 16:13:36,972 - root - INFO - Logging configured.
+2024-03-10 16:13:36,972 - root - INFO - Environment variables loaded.
+2024-03-10 16:14:13,886 - root - INFO - Logging configured.
+2024-03-10 16:14:13,886 - root - INFO - Environment variables loaded.
+2024-03-10 16:14:51,923 - root - INFO - Logging configured.
+2024-03-10 16:14:51,927 - root - INFO - Environment variables loaded.
+2024-03-10 16:17:06,751 - root - INFO - Logging configured.
+2024-03-10 16:17:06,751 - root - INFO - Environment variables loaded.
+2024-03-10 16:18:53,867 - root - INFO - Logging configured.
+2024-03-10 16:18:53,875 - root - INFO - Environment variables loaded.
+2024-03-10 16:18:56,126 - root - INFO - Logging configured.
+2024-03-10 16:18:56,126 - root - INFO - Environment variables loaded.
+2024-03-10 16:19:33,448 - root - INFO - Logging configured.
+2024-03-10 16:19:33,448 - root - INFO - Environment variables loaded.
+2024-03-10 16:19:33,466 - root - ERROR - Error importing plugin add: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,470 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,470 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,470 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,470 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,470 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,476 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,476 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,476 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,476 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,476 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,481 - root - ERROR - Error importing plugin clear_history: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,484 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,484 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,484 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,484 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,489 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,490 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,492 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,492 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,494 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,495 - root - ERROR - Error importing plugin divide: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,496 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,497 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,499 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,500 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,502 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,502 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,502 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,502 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,502 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,508 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,510 - root - ERROR - Error importing plugin history: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,510 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,513 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,514 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,514 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,516 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,516 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,516 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,516 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,516 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,524 - root - ERROR - Error importing plugin log: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,525 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,525 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,525 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,525 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,531 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,532 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,534 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,534 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,534 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,534 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,540 - root - ERROR - Error importing plugin menu: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,540 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,540 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,548 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,556 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,556 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,556 - root - ERROR - Error importing plugin multiply: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,556 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,562 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,562 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,564 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,564 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,564 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,564 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,564 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,572 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,572 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,572 - root - ERROR - Error importing plugin subtract: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:33,572 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,577 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,577 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,577 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,577 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,581 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,581 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,581 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,581 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:33,581 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,022 - root - INFO - Logging configured.
+2024-03-10 16:19:44,022 - root - INFO - Environment variables loaded.
+2024-03-10 16:19:44,038 - root - ERROR - Error importing plugin add: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,040 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,040 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,040 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,040 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,044 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,044 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,044 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,044 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,049 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,049 - root - ERROR - Error importing plugin add: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,049 - root - ERROR - Error importing plugin clear_history: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,055 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,055 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,055 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,058 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,062 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,063 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,063 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,066 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,066 - root - ERROR - Error importing plugin clear_history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,068 - root - ERROR - Error importing plugin divide: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,068 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,068 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,072 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,074 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,074 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,074 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,074 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,079 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,080 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin divide: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,082 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,090 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,093 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,093 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,093 - root - ERROR - Error importing plugin history: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,096 - root - ERROR - Error importing plugin log: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,096 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,096 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,096 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,096 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,101 - root - ERROR - Error importing plugin log: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,108 - root - ERROR - Error importing plugin menu: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,108 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,113 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,114 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,115 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,115 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,117 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,117 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,117 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,117 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin menu: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin multiply: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,121 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,130 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,137 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,137 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,137 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,137 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,144 - root - ERROR - Error importing plugin multiply: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,144 - root - ERROR - Error importing plugin subtract: Can't instantiate abstract class Command with abstract method execute
+2024-03-10 16:19:44,152 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,152 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,152 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,152 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,160 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,163 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,163 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,168 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,168 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:19:44,168 - root - ERROR - Error importing plugin subtract: issubclass() arg 1 must be a class
+2024-03-10 16:25:04,811 - root - INFO - Logging configured.
+2024-03-10 16:25:04,811 - root - INFO - Environment variables loaded.
+2024-03-10 16:25:04,826 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:25:04,826 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:28:15,424 - root - INFO - Logging configured.
+2024-03-10 16:28:15,424 - root - INFO - Environment variables loaded.
+2024-03-10 16:28:15,432 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:28:15,441 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:28:15,441 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:28:15,441 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:28:15,447 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:28:15,450 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:28:15,453 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:28:15,453 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:28:15,453 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:28:29,033 - root - INFO - Application interrupted and exiting gracefully.
+2024-03-10 16:28:29,033 - root - INFO - Application shutdown.
+2024-03-10 16:29:38,471 - root - INFO - Logging configured.
+2024-03-10 16:29:38,494 - root - INFO - Environment variables loaded.
+2024-03-10 16:29:38,544 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:29:38,564 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:29:38,580 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:29:38,584 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:29:38,589 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:29:38,593 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:29:38,598 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:29:38,603 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:29:38,603 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:29:38,604 - root - INFO - Application shutdown.
+2024-03-10 16:30:37,212 - root - INFO - Logging configured.
+2024-03-10 16:30:37,240 - root - INFO - Environment variables loaded.
+2024-03-10 16:30:37,297 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:30:37,316 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:30:37,336 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:30:37,354 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:30:37,373 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:30:37,391 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:30:37,408 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:30:37,423 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:30:37,424 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:30:37,426 - root - INFO - Application shutdown.
+2024-03-10 16:31:07,243 - root - INFO - Logging configured.
+2024-03-10 16:31:07,255 - root - INFO - Environment variables loaded.
+2024-03-10 16:31:07,301 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:31:07,321 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:31:07,341 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:31:07,360 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:31:07,379 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:31:07,398 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:31:07,417 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:31:07,428 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:31:07,429 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:31:07,429 - root - INFO - Application shutdown.
+2024-03-10 16:32:50,816 - root - INFO - Logging configured.
+2024-03-10 16:32:50,830 - root - INFO - Environment variables loaded.
+2024-03-10 16:32:50,869 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:32:50,889 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:32:50,894 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:32:50,899 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:32:50,903 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:32:50,908 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:32:50,913 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:32:50,917 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:32:50,918 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:32:50,920 - root - INFO - Application shutdown.
+2024-03-10 16:34:48,494 - root - INFO - Logging configured.
+2024-03-10 16:34:48,518 - root - INFO - Environment variables loaded.
+2024-03-10 16:34:48,574 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:34:48,592 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:34:48,604 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:34:48,613 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:34:48,623 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:34:48,631 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:34:48,640 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:34:48,649 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:34:48,650 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:34:48,651 - root - INFO - Application shutdown.
+2024-03-10 16:36:16,989 - root - INFO - Logging configured.
+2024-03-10 16:36:17,004 - root - INFO - Environment variables loaded.
+2024-03-10 16:36:17,053 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:36:17,070 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:36:17,086 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:36:17,098 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:36:17,104 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:36:17,109 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:36:17,114 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:36:17,120 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:36:17,121 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:36:17,122 - root - INFO - Application shutdown.
+2024-03-10 16:37:23,085 - root - INFO - Logging configured.
+2024-03-10 16:37:23,108 - root - INFO - Environment variables loaded.
+2024-03-10 16:37:23,141 - root - INFO - Logging configured.
+2024-03-10 16:37:23,164 - root - INFO - Environment variables loaded.
+2024-03-10 16:37:23,208 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:37:23,228 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:37:23,248 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:37:23,255 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:37:23,261 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:37:23,266 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:37:23,270 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:37:23,275 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:37:23,276 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:37:23,276 - root - INFO - Application shutdown.
+2024-03-10 16:39:17,417 - root - INFO - Logging configured.
+2024-03-10 16:39:17,431 - root - INFO - Environment variables loaded.
+2024-03-10 16:39:17,455 - root - INFO - Logging configured.
+2024-03-10 16:39:17,470 - root - INFO - Environment variables loaded.
+2024-03-10 16:39:17,499 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:39:17,507 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:39:17,512 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:39:17,519 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:39:17,524 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:39:17,529 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:39:17,534 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:39:17,539 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:39:17,539 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:39:17,540 - root - INFO - Application shutdown.
+2024-03-10 16:39:35,001 - root - INFO - Logging configured.
+2024-03-10 16:39:35,015 - root - INFO - Environment variables loaded.
+2024-03-10 16:39:35,027 - root - INFO - Logging configured.
+2024-03-10 16:39:35,035 - root - INFO - Environment variables loaded.
+2024-03-10 16:39:35,054 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:39:35,063 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:39:35,075 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:39:35,092 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:39:35,113 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:39:35,130 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:39:35,137 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:39:35,143 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:39:35,145 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:39:35,145 - root - INFO - Application shutdown.
+2024-03-10 16:40:56,721 - root - INFO - Logging configured.
+2024-03-10 16:40:56,732 - root - INFO - Environment variables loaded.
+2024-03-10 16:40:56,752 - root - INFO - Logging configured.
+2024-03-10 16:40:56,763 - root - INFO - Environment variables loaded.
+2024-03-10 16:40:56,792 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:40:56,804 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:40:56,820 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:40:56,835 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:40:56,852 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:40:56,868 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:40:56,881 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:40:56,888 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:40:56,889 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:40:56,890 - root - INFO - Application shutdown.
+2024-03-10 16:41:20,733 - root - INFO - Logging configured.
+2024-03-10 16:41:20,751 - root - INFO - Environment variables loaded.
+2024-03-10 16:41:20,771 - root - INFO - Logging configured.
+2024-03-10 16:41:20,787 - root - INFO - Environment variables loaded.
+2024-03-10 16:41:20,834 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:41:20,847 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:41:20,852 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:41:20,857 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:41:20,862 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:41:20,867 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:41:20,871 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:41:20,876 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:41:20,877 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:41:20,879 - root - INFO - Application shutdown.
+2024-03-10 16:41:29,596 - root - INFO - Logging configured.
+2024-03-10 16:41:29,611 - root - INFO - Environment variables loaded.
+2024-03-10 16:41:29,632 - root - INFO - Logging configured.
+2024-03-10 16:41:29,646 - root - INFO - Environment variables loaded.
+2024-03-10 16:41:29,686 - root - INFO - Command 'add' from plugin 'add' registered.
+2024-03-10 16:41:29,703 - root - INFO - Command 'clear_history' from plugin 'clear_history' registered.
+2024-03-10 16:41:29,721 - root - INFO - Command 'divide' from plugin 'divide' registered.
+2024-03-10 16:41:29,740 - root - INFO - Command 'history' from plugin 'history' registered.
+2024-03-10 16:41:29,759 - root - INFO - Command 'log' from plugin 'log' registered.
+2024-03-10 16:41:29,777 - root - INFO - Command 'menu' from plugin 'menu' registered.
+2024-03-10 16:41:29,796 - root - INFO - Command 'multiply' from plugin 'multiply' registered.
+2024-03-10 16:41:29,814 - root - INFO - Command 'subtract' from plugin 'subtract' registered.
+2024-03-10 16:41:29,815 - root - INFO - Application started. Type 'exit' to exit.
+2024-03-10 16:41:29,816 - root - INFO - Application shutdown.
