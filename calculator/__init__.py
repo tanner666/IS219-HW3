@@ -53,7 +53,7 @@ class Calculator:
                         command_module = importlib.import_module(f'{commands_package}.{command_name}')
                         self.register_commands(command_module, command_name)
                     except ImportError as e:
-                        logging.error(f"Error importing plugin {plugin_name}: {e}")
+                        logging.error(f"Error importing plugin {command_name}: {e}")
 
     def register_commands(self, command_module, command_name):
         for item_name in dir(command_module):
